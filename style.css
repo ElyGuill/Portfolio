@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+header nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+/* Container principal */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: white;
+}
+
+/* Section photo */
+.photo-section {
+  margin-right: 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* Rendu circulaire */
+  border: 3px solid white;
+  object-fit: cover; /* Ajuste l'image au cadre */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Section texte */
+.text-section h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.text-section p {
+  font-size: 16px;
+  margin: 5px 0 15px 0;
+  color: #cccccc;
+  text-align: center;
+}
+
+/* Liens de navigation */
+.text-section nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.text-section nav a:hover {
+  color: #00bcd4;
+}
